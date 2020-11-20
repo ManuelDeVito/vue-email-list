@@ -1,0 +1,21 @@
+.contenitore {
+    height: 1000px;
+    width: 1300px;
+    background-color: lightgreen;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenitore h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: red;
+}
+
+h2 {
+    font-size: 30px;
+
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Mail list</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <div id="root">
+            <div class="contenitore">
+
+                <h1>Lista Email Random</h1>
+
+                <h2 v-for="(elemento) in contenitore_mail">
+                    La tua email aziendale è: {{ elemento }}
+                </h2>
+
+            </div>
+
+
+        </div>
+        <script src="main.js" charset="utf-8"></script>
+    </body>
+</html>
